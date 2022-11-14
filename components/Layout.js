@@ -4,7 +4,6 @@ import React from 'react';
 //styles
 import styled from 'styled-components';
 
-
 export default function Layout({ children }) {
   return (
     <div className='bg-site relative'>
@@ -13,7 +12,7 @@ export default function Layout({ children }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <StyledMain className='container'>{children}</StyledMain>
-      <StyledFooter>@Copyright Tonstudio-Kleinanzeigen 2022</StyledFooter>
+      <StyledFooter>Ozan leon yurdakul</StyledFooter>
     </div>
   );
 }
@@ -22,4 +21,7 @@ const StyledHeader = styled.header``;
 const StyledMain = styled.main`
   margin: 0 auto;
 `;
-const StyledFooter = styled.footer``;
+const StyledFooter = styled.footer`
+  margin-top: 300px;
+  text-align: center;
+`;
