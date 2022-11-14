@@ -257,8 +257,8 @@ export default function Home() {
               <div className='mt-5 flex  flex-col gap-3 font-thin'>
                 <p>
                   This was my first professional Project in web development. So i can say, everything in my new journy
-                  of life started with wordpress, because by working on this project, i detected a passion for working
-                  with web technologies, i hadn't discovered on other jobs
+                  of life started with wordpress, because by working on this project, i discovered a passion a had not
+                  with other jobs before.
                 </p>
                 <p>
                   The aim is to prank ones friends, girlfriends or enemies 😈. you type in a number and in the
