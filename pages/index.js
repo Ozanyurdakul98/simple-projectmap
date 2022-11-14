@@ -34,7 +34,7 @@ export default function Home() {
             CV:
             <a
               className='pl-2 text-blue-500 underline '
-              href='https://drive.google.com/file/d/1IsKpn-HJo92oAvRaPQ2os87ZpbLPNAKU/view?usp=sharing'>
+              href='https://drive.google.com/file/d/1srE_X_PY5Z5TIZ85D8Xw_bLNHVGjjRI_/view?usp=sharing'>
               my cv
             </a>
           </p>
