@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className='mt-20'>
+    <div className='mx-1 mt-20 overflow-x-hidden'>
       <h1 className='mb-10 text-center text-2xl font-bold md:text-4xl'>Project map of Ozan Yurdakul</h1>
       <section className='flex flex-col items-center'>
         <p className='px-10 font-thin sm:max-w-[650px] sm:px-0 xl:max-w-[850px]'>
@@ -136,24 +136,24 @@ export default function Home() {
         <section className='mt-20 flex w-full flex-wrap gap-10 sm:grid sm:grid-cols-2 sm:gap-0'>
           {/* left */}
           <div className='grid w-full grid-cols-2'>
-            <div className='col-start-1 w-[300px]'>
+            <div className='relative col-start-1 min-h-[200px] max-w-[300px]'>
               <Image
                 src='/ricmorty/pic1.png'
-                layout='responsive'
+                layout='fill'
                 width={'250px'}
                 height={'200px'}
                 quality='100'
-                objectFit='cover'
+                objectFit='contain'
               />
             </div>
-            <div className='col-start-2 w-[300px]'>
+            <div className='relative col-start-2 min-h-[200px] max-w-[300px]'>
               <Image
                 src='/ricmorty/pic2.png'
-                layout='responsive'
+                layout='fill'
                 width={'250px'}
                 height={'200px'}
                 quality='100'
-                objectFit='cover'
+                objectFit='contain'
               />
             </div>
           </div>
@@ -188,21 +188,21 @@ export default function Home() {
         <section className='mt-20 flex w-full flex-wrap gap-10 sm:grid sm:grid-cols-2 sm:gap-0'>
           {/* left */}
           <div className='grid w-full grid-cols-2'>
-            <div className='col-start-1 h-full w-full'>
+            <div className='relative min-h-[300px] max-w-[300px]'>
               <Image
                 src='/quiz/pic1.png'
-                layout='responsive'
-                width={'47px'}
+                layout='fill'
+                width={'50px'}
                 height={'100px'}
                 quality='100'
                 objectFit='contain'
               />
             </div>
-            <div className='col-start-2 grid'>
+            <div className='relative min-h-min max-w-[300px]'>
               <Image
                 src='/quiz/pic2.png'
-                layout='responsive'
-                width={'100px'}
+                layout='fill'
+                width={'150px'}
                 height={'100px'}
                 quality='100'
                 objectFit='contain'
@@ -286,7 +286,7 @@ export default function Home() {
         <section className='relative mt-20 flex w-full flex-wrap gap-10 sm:grid sm:grid-cols-2 sm:gap-0'>
           {/* left */}
           <div className='grid grid-cols-2 grid-rows-2 '>
-            <div className=' col-start-1 row-start-1'>
+            <div className='relative  col-start-1 row-start-1 min-h-[200px] max-w-[300px]'>
               <video
                 src='/bittegehweg/video1.mp4'
                 className='relative top-24'
@@ -297,17 +297,17 @@ export default function Home() {
                 muted
                 width='300px'></video>
             </div>
-            <div className=' col-start-1 row-start-2'>
+            <div className='relative col-start-1 row-start-2 min-h-[200px] max-w-[300px]'>
               <video src='/bittegehweg/video2.mp4' type='video/mp4' controls autoPlay loop muted width='300px'></video>
             </div>
-            <div className=''>
+            <div className='relative min-h-[200px] max-w-[300px]'>
               <Image
                 src='/bittegehweg/poster1.jpg'
-                layout='responsive'
+                layout='fill'
                 width={'275px'}
                 height={'595px'}
                 quality='100'
-                objectFit='cover'
+                objectFit='contain'
               />
             </div>
           </div>
