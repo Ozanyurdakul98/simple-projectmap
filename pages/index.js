@@ -89,13 +89,13 @@ export default function Home() {
         {/* colorsaver */}
         <section className='mt-20 flex w-full flex-wrap gap-10 sm:grid sm:grid-cols-2 sm:gap-0'>
           {/* left */}
-          <div className='grid w-full grid-cols-1'>
-            <div className='col-start-1 h-full w-full'>
+          <div className='grid w-full justify-center'>
+            <div className='col-start-1 h-full w-[300px]'>
               <Image
                 src='/colorsaver/pic2.png'
                 layout='responsive'
-                width={'330'}
-                height={'300px'}
+                width={'300'}
+                height={'450px'}
                 quality='100'
                 objectFit='contain'
               />
@@ -135,25 +135,25 @@ export default function Home() {
         {/* ricmorty */}
         <section className='mt-20 flex w-full flex-wrap gap-10 sm:grid sm:grid-cols-2 sm:gap-0'>
           {/* left */}
-          <div className='grid w-full grid-rows-2'>
-            <div className='row-start-1'>
+          <div className='grid w-full grid-cols-2'>
+            <div className='col-start-1 w-[300px]'>
               <Image
                 src='/ricmorty/pic1.png'
                 layout='responsive'
-                width={'200px'}
-                height={'100px'}
+                width={'250px'}
+                height={'200px'}
                 quality='100'
-                objectFit='contain'
+                objectFit='cover'
               />
             </div>
-            <div className='row-start-2'>
+            <div className='col-start-2 w-[300px]'>
               <Image
                 src='/ricmorty/pic2.png'
                 layout='responsive'
-                width={'177px'}
-                height={'100px'}
+                width={'250px'}
+                height={'200px'}
                 quality='100'
-                objectFit='contain'
+                objectFit='cover'
               />
             </div>
           </div>
