@@ -82,6 +82,17 @@ export default function Home() {
                     <li>Server-side-rendering, Static-site-generation, api's</li>
                   </ul>
                 </div>
+                <div>
+                  <ul className='text-blue-500'>
+                    <li>links:</li>
+                    <li className='underline'>
+                      <a href='https://capstone-project-lime-ten.vercel.app'>live here</a>
+                    </li>
+                    <li className='underline'>
+                      <a href='https://github.com/Ozanyurdakul98/capstone-project'>repo here</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
