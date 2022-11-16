@@ -125,7 +125,6 @@ export default function Home() {
                   <ul>
                     <li>tech-stack:</li>
                     <li>react, local storage</li>
-                    <li>javascript, local storage</li>
                   </ul>
                 </div>
               </div>
