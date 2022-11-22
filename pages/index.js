@@ -55,7 +55,7 @@ export default function Home() {
               width='300px'></video>
           </div>
           {/* right */}
-          <div className='col-start-2 px-5'>
+          <div className='col-start-2 px-5 [&_li]:font-thin'>
             <h2 className=' text-2xl'>Tonstudio-Kleinanzeigen</h2>
             <div>
               <p>Platform for recording studios</p>
@@ -70,25 +70,33 @@ export default function Home() {
                   offering a main place, specially for music/sound production services.
                 </p>
               </div>
-              <div className='mt-5 flex flex-col gap-2'>
+              <div className='mt-5 flex flex-col gap-1'>
                 <p>Specifications </p>
-                <p>when: 10.22 - 11.22 (6 weeks)</p>
-                <p>for whom: capstone-project for neuefische traineeship</p>
-                <p>notes: worked with github project-board, user-storys and code-reviews from coaches</p>
-                <div>
-                  <ul>
-                    <li>tech-stack:</li>
-                    <li>react, next.js, tailwindCss, mongoose, mongoDB, next-auth, cloudinary, headlessUi</li>
-                    <li>Server-side-rendering, Static-site-generation, api's</li>
-                  </ul>
-                </div>
+                <ul>
+                  when: <li> 10.22 - .. (since 7 weeks)</li>
+                </ul>
+                <ul>
+                  for whom: <li>capstone-project for neuefische traineeship (successfully finished)</li>
+                  <li>still working on it</li>
+                </ul>
+                <ul>
+                  notes: <li> worked with github project-board, user-storys and code-reviews from coaches</li>
+                </ul>
+                <ul>
+                  current feature: <li>Dashboard for Users and Admin with tables for added studios and users</li>
+                  <li>User roles to disinguish each user session between user and admin</li>
+                  <li>Dashboard settings page</li>
+                </ul>
+                <ul>
+                  tech-stack:
+                  <li>react, next.js, tailwindCss, mongoose, mongoDB, next-auth, cloudinary, headlessUi</li>
+                  <li>Server-side-rendering, Static-site-generation, api's</li>
+                </ul>
                 <div>
                   <ul className='text-blue-500'>
-                    <li>links:</li>
-                    <li className='underline'>
+                    links:
+                    <li className='flex gap-3 underline'>
                       <a href='https://capstone-project-lime-ten.vercel.app'>live here</a>
-                    </li>
-                    <li className='underline'>
                       <a href='https://github.com/Ozanyurdakul98/capstone-project'>repo here</a>
                     </li>
                   </ul>
