@@ -83,6 +83,9 @@ export default function Home() {
                   notes: <li> worked with github project-board, user-storys and code-reviews from coaches</li>
                 </ul>
                 <ul>
+                  new added since Video: <li>working on dashboard</li>
+                </ul>
+                <ul>
                   current feature: <li>Dashboard for Users and Admin with tables for added studios and users</li>
                   <li>User roles to disinguish each user session between user and admin</li>
                   <li>Dashboard settings page</li>
